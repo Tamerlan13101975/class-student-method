@@ -18,8 +18,19 @@ class Student:
 
 
 #Создаем обьект класса
-student1 = Student("Антон, Петров")
-student2 = Student("Владимир, Иванов")
+student1 = Student("Антон", "Петров")
+student2 = Student("Владимир", "Иванов")
+
+
+student1.add_grade(3)
+student1.add_grade(5)
+student1.add_grade(5)
+student2.add_grade(4)
+student2.add_grade(4)
+student2.add_grade(3)
+
+print(student1)
+print(student2)
 
 
 
