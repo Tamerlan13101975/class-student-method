@@ -15,3 +15,13 @@ class Student:
 
     def __str__(self):
         return f"Студент: {self.name} {self.surname}nОценки: {self.grades}nСредний балл: {self.calculate_average_grade()}"
+
+
+#Создаем обьект класса
+student1 = Student("Антон, Петров")
+student2 = Student("Владимир, Иванов")
+
+
+
+
+
